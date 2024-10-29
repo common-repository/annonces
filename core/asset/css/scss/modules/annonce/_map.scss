@@ -1,0 +1,101 @@
+@import "infowindow";
+
+#annonces-map-wrapper {
+	position: relative;
+}
+
+
+/** Taxonomies bloc */
+#annonces-map-wrapper .annonces-taxonomies {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 2em;
+	max-height: 100%;
+	overflow-y: auto;
+	background: #fff;
+	width: 100%;
+	max-width: 240px;
+	box-shadow: 0 0 40px rgba(0,0,0,0.2);
+
+	@media ( max-width: $media__medium ) {
+		left: 0;
+		top: 0;
+		right: 0;
+		width: 100%;
+		max-width: none;
+		max-height: 160px;
+		transform: none;
+	}
+
+	.taxonomies-entete {
+		padding: 1em;
+		background: rgba(0,0,0,0.1);
+	}
+
+	.taxonomies-container {
+		padding: 1em;
+
+		.annonces-taxonomy {
+			display: grid;
+			grid-template-columns: 30px 1fr;
+			margin: 0.4em 0;
+
+			img {
+				max-width: 26px;
+				align-self: center;
+				grid-column: 1;
+			}
+			.taxonomy-label {
+				grid-column: 2;
+				padding-right: 20px;
+			}
+			.taxonomies-child {
+				grid-column: 1  / span 2;
+				margin-left: 2em;
+
+				.taxonomy-label {
+					display: block;
+				}
+			}
+		}
+
+		.taxonomy-label {
+			position: relative;
+			color: rgba(0,0,0,0.8);
+			transition: all 0.2s ease-out;
+
+			&::before, &::after {
+				display: inline-block;
+				content: '';
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				right: 0;
+				transition: all 0.2s ease-out;
+			}
+			&::after {
+				border: 1px solid rgba(0,0,0,0.4);
+				background: #fff;
+				width: 16px;
+				height: 16px;
+			}
+			&::before {
+				right: 3px;
+				background: #7f70f5;
+				padding-left: 4px;
+				width: 10px;
+				height: 10px;
+				z-index: 1;
+				opacity: 0;
+			}
+			&:hover {
+				cursor: pointer;
+				color: rgba(0,0,0,0.5);
+			}
+			&.active::before {
+					opacity: 1;
+			}
+		}
+	}
+}

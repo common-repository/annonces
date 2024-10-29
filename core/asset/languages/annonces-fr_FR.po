@@ -1,0 +1,233 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Annonces v2.x.x\n"
+"POT-Creation-Date: 2018-07-17 17:34+0200\n"
+"PO-Revision-Date: 2018-07-18 14:52+0200\n"
+"Last-Translator: \n"
+"Language-Team: Eoxia dev@eoxia.com\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.9\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop;translate_nooped_plural\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: core/class/class-tgm-plugin-activation.php\n"
+"X-Poedit-SearchPathExcluded-1: core/external\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: core/action/core.action.php:82
+msgid "Annonces plugin work with ACF version 5+. Please update !"
+msgstr ""
+"Le plugin Annonces fonctionne avec la version de ACF 5+. Veuillez mettre à "
+"jour ACF !"
+
+#: core/util/core.util.php:69
+msgid "Install Required Plugins"
+msgstr "Installer les extensions requises"
+
+#: core/util/core.util.php:70
+msgid "Install Plugins"
+msgstr "Installer les extensions"
+
+#: core/util/core.util.php:71
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installation de l'extension : %s"
+
+#: core/util/core.util.php:72
+msgid "Something went wrong with the plugin API."
+msgstr "Une erreur est survenue à propos de l'API de l'extension."
+
+#: core/util/core.util.php:73
+#, php-format
+msgid "This plugin requires the following plugin installed or update: %1$s."
+msgstr ""
+"Cette extension nécessite l'installation ou la mise à jour des extensions "
+"suivantes : %1$s."
+
+#: core/util/core.util.php:74
+#, php-format
+msgid "This plugin recommends the following plugin installed or updated: %1$s."
+msgstr ""
+"Cette extension recommande l'installation ou la mise à jour des extensions "
+"suivantes : %1$s."
+
+#: core/util/core.util.php:75
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+"Désolé, vous n'avez pas les permissions requises pour installer l'extension "
+"%s. Veuillez contacter l'administrateur du site."
+
+#: core/util/core.util.php:76
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr "Les extensions requises ne sont pas activées : %1$s."
+
+#: core/util/core.util.php:77
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr "Les extensions recommandées ne sont pas activées : %1$s."
+
+#: core/util/core.util.php:78
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+"Désolé, vous n'avez pas les permissions requises pour activer l'extension "
+"%s. Veuillez contacter l'administrateur du site."
+
+#: core/util/core.util.php:79
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this plugin: %1$s."
+msgstr ""
+"Les extensions suivantes ont besoin d'une mise à jour pour assurer un "
+"maximum de compatibilité : %1$s."
+
+#: core/util/core.util.php:80
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgstr ""
+"Désolé, vous n'avez pas les permissions requises pour mettre à jour "
+"l'extension %s. Veuillez contacter l'administrateur du site."
+
+#: core/util/core.util.php:81
+msgid "Go Install Plugin"
+msgstr "Installer les extensions"
+
+#: core/util/core.util.php:82
+msgid "Go Activate Plugin"
+msgstr "Activer les extensions"
+
+#: core/util/core.util.php:83
+msgid "Return to Required Plugins Installer"
+msgstr "Retourner à la page d'installation des extensions requises"
+
+#: core/util/core.util.php:84
+msgid "Plugin activated successfully."
+msgstr "L'extension a été activée."
+
+#: core/util/core.util.php:85
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Tous les plugins ont été installés et activés : %s"
+
+#: modules/annonce/action/annonce.action.php:42
+#: modules/annonce/action/annonce.action.php:43
+#: modules/annonce/action/annonce.action.php:63
+#: modules/annonce/shortcode/annonce.shortcode.php:114
+#: modules/option/action/option.action.php:41
+#: modules/option/action/option.action.php:82
+msgid "Announces"
+msgstr "Annonces"
+
+#: modules/annonce/action/annonce.action.php:66
+msgid "Announce"
+msgstr "Annonce"
+
+#: modules/annonce/action/annonce.action.php:101
+#: modules/annonce/action/annonce.action.php:102
+msgid "Announce taxonomies"
+msgstr "Catégories annonces"
+
+#: modules/annonce/action/annonce.action.php:118
+msgid "Announce taxonomy"
+msgstr "Catégorie annonces"
+
+#: modules/annonce/shortcode/annonce.shortcode.php:48
+#: modules/annonce/view/single-announce.php:37
+msgid "Email"
+msgstr "Email"
+
+#: modules/annonce/shortcode/annonce.shortcode.php:53
+#: modules/annonce/view/single-announce.php:43
+msgid "Phone number"
+msgstr "Numéro de téléphone"
+
+#: modules/annonce/shortcode/annonce.shortcode.php:58
+#: modules/annonce/view/single-announce.php:49
+msgid "Address"
+msgstr "Adresse"
+
+#: modules/annonce/view/main-markers.view.php:46
+msgid "See"
+msgstr "Voir"
+
+#: modules/annonce/view/single-announce.php:60
+msgid "Author"
+msgstr "Auteur"
+
+#: modules/annonce/view/single-announce.php:71
+msgid "Associated labels"
+msgstr "Certifications associées"
+
+#: modules/contact/view/main.view.php:19 modules/label/view/single-label.php:57
+msgid "Associated announces"
+msgstr "Annonces associées"
+
+#: modules/label/action/label.action.php:41
+msgid "Labels"
+msgstr "Certifications"
+
+#: modules/label/action/label.action.php:44
+msgid "Label"
+msgstr "Certification"
+
+#: modules/label/view/single-label.php:37
+msgid "Website"
+msgstr "Site internet"
+
+#: modules/option/action/option.action.php:89
+msgid "Permalink Announce"
+msgstr "Permalien de Annonces"
+
+#: modules/option/view/main.view.php:17
+msgid "Announces options"
+msgstr "Options de Annonces"
+
+#: modules/option/view/main.view.php:24
+msgid "Google api key"
+msgstr "Clé API Google"
+
+#: modules/option/view/main.view.php:28
+msgid "Obtain a google map api key"
+msgstr "Obtenir une clé API Google Map"
+
+#: modules/option/view/main.view.php:32
+msgid "Display label module"
+msgstr "Afficher le module appellation"
+
+#: modules/option/view/main.view.php:36
+msgid "Activate"
+msgstr "Activer"
+
+#: modules/option/view/main.view.php:39
+msgid "Check to display the label module"
+msgstr "Cocher pour afficher le module Appellation"
+
+#: modules/option/view/main.view.php:44
+msgid "Update"
+msgstr "Mise à jour"
+
+#, fuzzy
+#~| msgid "Announces"
+#~ msgid "Annonces"
+#~ msgstr "Annonces"
+
+#~ msgid "You have to reload website permalinks after changing"
+#~ msgstr "Vous devrez par la suite mettre à jour les permaliens de votre site"

@@ -1,0 +1,14 @@
+{
+    "name": "contact",
+    "slug": "contact",
+    "version": "2.1.0",
+    "path": "modules/contact",
+    "dependencies_func": [
+        "\\annonces\\is_acf"
+    ],
+    "dependencies": {
+        "action": {},
+        "filter": {}
+    },
+    "state": true
+}

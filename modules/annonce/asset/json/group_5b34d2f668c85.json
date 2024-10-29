@@ -1,0 +1,53 @@
+    {
+        "key": "group_5b34d2f668c85",
+        "title": "Annonces - Custom markers",
+        "fields": [
+            {
+                "key": "field_5b34d300dcd06",
+                "label": "Choose your marker",
+                "name": "icon",
+                "type": "radio",
+                "instructions": "Note : Markers are only displayed in parent taxonomies",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "red": "Red",
+                    "violet": "Violet",
+                    "yellow": "Yellow",
+                    "green": "Green",
+                    "cyan": "Cyan",
+                    "brown": "Brown",
+                    "blue": "Blue",
+                    "black": "Black"
+                },
+                "allow_null": 0,
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": "",
+                "layout": "vertical",
+                "return_format": "value"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "taxonomy",
+                    "operator": "==",
+                    "value": "announce_taxonomy"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    }

@@ -1,0 +1,115 @@
+{
+    "key": "group_5b44bacc113cb",
+    "title": "Annonces - Label",
+    "fields": [
+        {
+            "key": "field_5b486a2d519c5",
+            "label": "Organisation",
+            "name": "organisation",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5b44bb131607c",
+                    "label": "website",
+                    "name": "website",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+										"prepend": "<span class=\"dashicons dashicons-admin-site\"><\/span>",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5b486afe519c7",
+                    "label": "Phone number",
+                    "name": "telephone",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "<span class=\"dashicons dashicons-phone\"><\/span>",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5b486b24519c8",
+                    "label": "Email",
+                    "name": "email",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "<span class=\"dashicons dashicons-email\"><\/span>",
+                    "append": "",
+                    "maxlength": ""
+                },
+								{
+										"key": "field_5b486aea519c6",
+										"label": "Address",
+										"name": "address",
+										"type": "google_map",
+										"instructions": "",
+										"required": 0,
+										"conditional_logic": 0,
+										"wrapper": {
+												"width": "",
+												"class": "",
+												"id": ""
+										},
+										"center_lat": "",
+										"center_lng": "",
+										"zoom": "",
+										"height": ""
+								}
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "label"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": ""
+}

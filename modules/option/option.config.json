@@ -1,0 +1,12 @@
+{
+    "name": "Option",
+    "slug": "option",
+    "version": "2.0.0",
+    "path": "modules/option",
+    "dependencies_func": [
+        "\\annonces\\is_acf"
+    ],
+    "dependencies": {
+        "action": {}
+    }
+}

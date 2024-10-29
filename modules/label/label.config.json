@@ -1,0 +1,12 @@
+{
+    "name": "Label",
+    "slug": "label",
+    "version": "2.0.0",
+    "path": "modules/label",
+    "dependencies_func": [],
+    "dependencies": {
+        "action": {},
+        "filter": {}
+    },
+    "state": true
+}

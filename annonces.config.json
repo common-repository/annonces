@@ -1,0 +1,12 @@
+{
+	"name": "annonces",
+	"slug": "annonces",
+	"modules": [
+		"core/core.config.json",
+		"modules/option/option.config.json",
+		"modules/annonce/annonce.config.json",
+		"modules/label/label.config.json",
+		"modules/contact/contact.config.json"
+	],
+	"version": "2.1.1"
+}
